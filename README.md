@@ -1,5 +1,7 @@
 # Elliptic Curve Cryptography
 
+* [Cautionary Note](#ThisIsNotCryptographicallySecure)
+* [Structure](#Struct)
 * [Background](#Background)
   * [What are Elliptic Curves](#WhatAre)
   * [Addition and Subtraction](#AddSub)
@@ -14,7 +16,19 @@
 * [Diffie Hellman](#DH)
 * [Elgamel](#Elgamel)
 * [ECDSA](#ECDSA)
+* [References](#Ref)
 
+## Cautionary Note <a name="ThisIsNotCryptographicallySecure" />
+
+This is a project I wrote for my Alevel Computer Science. This should tell you enough but if it is not abudently clear this *may not - read almost certainly isn't - be cryptographically secure; it has not been evaluated by anyone and so under **no circumstanced** should be used in any real world aplication outside tinkering. This was just made because I could and it acted as a good excuse to look into the cool maths about elliptic curves which you can read about below.
+
+## Structure <a name="Struct" />
+
+All main implentation of Elliptic Curves is done in the /curves/ and points.py
+
+Curves and their respective starting points are stored in curves.txt and base_points.txt
+
+Implementation of algorithms is done in files bearing their names i.e. Elliptic Curve Diffie Hellman is in diffie_hellman.py
 
 ## Background <a name="Background" />
 
@@ -144,3 +158,12 @@ First the one creating the signature needs to have published the base point they
 If you are the one creating the signature call **create_signature(base_point, private_key, message)** where message is a binary string. This will then return the signature pair r and s for the message.
 
 If you need to check the signature call **verify(base_point, public_key, message, signature_pair)** where message is the binary message received. This will return True if it is the signature or false if it is not.
+
+## References <a name="Ref" />
+
+These references aren't for any specific areas in this document, more are just useful if you want to do some more research into ECC (Elliptic Curve Cryptography)
+
+
+
+General overview of them : https://en.wikipedia.org/wiki/Elliptic_curve (you can also read about the other types here too)
+Good for an overview of the different curves used: https://safecurves.cr.yp.to/
