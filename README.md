@@ -1,7 +1,7 @@
 # Elliptic Curve Cryptography
 
 * [Background](##Background)
-  * [What are Elliptic Curves](###What are Elliptic Curves?)
+  * [What are Elliptic Curves](###What%20are%20Elliptic%20Curves?)
   * [Addition and Subtraction](###What does it mean to add or subtract points on an elliptic curve?)
   * [Multiplication and Division](###Multiplication and Division)
   * [Co-ordinate Structure](### Affine vs Projective co-ordinates)
