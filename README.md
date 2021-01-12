@@ -1,6 +1,6 @@
 # Elliptic Curve Cryptography
 
-* [Background](##Background)
+* [Background](#each)
   * [What are Elliptic Curves](###What%20are%20Elliptic%20Curves?)
   * [Addition and Subtraction](###What does it mean to add or subtract points on an elliptic curve?)
   * [Multiplication and Division](###Multiplication and Division)
@@ -35,7 +35,7 @@ For a short Weierstrass curve to add 2 points you take the line going through bo
 
 From the geometric definition of addition and subtraction comes the algebraic equations for all the Short Weierstrass curve and therefore all 3 other curves due to their ability to represented as Short Weierstrass Curves. For (x<sub>1</sub>, y<sub>1</sub>) + (x<sub>2</sub>, y<sub>2</sub>) = (x<sub>3</sub>, y<sub>3</sub>) formulas for x<sub>3</sub> and  y<sub>3</sub> are show below :
 
-* **Short Weierstrass** :
+* **Short Weierstrass** :<a name="each" />
   * gradient = g = (y<sub>2</sub> - y<sub>1</sub>) * (x<sub>2</sub> - x<sub>1</sub>)<sup>-1</sup>
   * x<sub>3</sub> = g<sup>2</sup> - x<sub>2</sub> - x<sub>1</sub>
   * y<sub>3</sub> =  y<sub>2</sub> + g(x<sub>2</sub> - x<sub>1</sub>) // still requires maths
