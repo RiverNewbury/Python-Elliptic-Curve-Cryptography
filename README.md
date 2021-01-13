@@ -20,7 +20,7 @@
 
 ## Cautionary Note <a name="ThisIsNotCryptographicallySecure" />
 
-This is a project I wrote for my Alevel Computer Science. This should tell you enough but if it is not abudently clear this *may not - read almost certainly isn't - be cryptographically secure; it has not been evaluated by anyone and so under **no circumstanced** should be used in any real world aplication outside tinkering. This was just made because I could and it acted as a good excuse to look into the cool maths about elliptic curves which you can read about below.
+This is a project I wrote for my Alevel Computer Science. This should tell you enough but if it is not abudently clear this *may not* - read almost certainly isn't - be cryptographically secure; it has not been evaluated by anyone and so under **no circumstanced** should be used in any real world aplication outside tinkering. This was just made because I could and it acted as a good excuse to look into the cool maths about elliptic curves which you can read about below.
 
 ## Structure <a name="Struct" />
 
