@@ -167,3 +167,7 @@ These references aren't for any specific areas in this document, more are just u
 
 General overview of them : https://en.wikipedia.org/wiki/Elliptic_curve (you can also read about the other types here too)
 Good for an overview of the different curves used: https://safecurves.cr.yp.to/
+
+ECDH : https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman
+ECElgamel : https://en.wikipedia.org/wiki/ElGamal_encryption
+ECDSA : https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm
